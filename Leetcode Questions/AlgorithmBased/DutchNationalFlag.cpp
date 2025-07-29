@@ -1,5 +1,3 @@
-//Dutch National Flag ALgorithm
-// https://leetcode.com/problems/sort-colors/
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
