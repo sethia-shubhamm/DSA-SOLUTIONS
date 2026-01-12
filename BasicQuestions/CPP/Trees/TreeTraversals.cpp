@@ -1,4 +1,4 @@
-//Inorder Traversal of a Binary Tree
+//Inorder Traversal of a Binary Tree (Left, Root, Right)
 void inorderTraversal(Tree* root) {
     if (root == NULL) {
         return;
@@ -8,7 +8,7 @@ void inorderTraversal(Tree* root) {
     inorderTraversal(root->right);
 }
 
-//Preorder Traversal of a Binary Tree
+//Preorder Traversal of a Binary Tree (Root, Left, Right)
 void preorderTraversal(Tree* root) {
     if (root == NULL) {
         return;
@@ -18,7 +18,7 @@ void preorderTraversal(Tree* root) {
     preorderTraversal(root->right);
 }
 
-//Postorder Traversal of a Binary Tree
+//Postorder Traversal of a Binary Tree (Left, Right, Root)
 void postorderTraversal(Tree* root) {
     if (root == NULL) {
         return;
@@ -28,7 +28,7 @@ void postorderTraversal(Tree* root) {
     cout << root->data << " ";
 }
 
-//Level Order Traversal of a Binary Tree
+//Level Order Traversal of a Binary Tree (Breadth-First)
 #include <queue>
 void levelOrderTraversal(Tree* root) {
     if (root == NULL) {
